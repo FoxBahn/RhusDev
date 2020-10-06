@@ -1,6 +1,6 @@
 ﻿namespace RhusDev
 {
-	partial class Form1
+	partial class Login
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -28,10 +28,17 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
+			this.SuspendLayout();
+			// 
+			// Login
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Text = "Form1";
+			this.ClientSize = new System.Drawing.Size(1426, 990);
+			this.Name = "Login";
+			this.Text = "Login";
+			this.ResumeLayout(false);
+
 		}
 
 		#endregion
